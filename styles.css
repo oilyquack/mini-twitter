@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+}
+
+.container {
+  padding: 20px;
+  min-height: 400px;
+  background-color: #ccc;
+}
+
+form {
+  display: flex;
+  justify-content: space-around;
+}
+
+input {
+  margin: 5px;
+  width: 500px;
+}
+
+.textTweet {
+  margin: 10px;
+}
+
+.submit-button {
+  margin: 10px;
+  width: 100px;
+  border-radius: 10%;
+}
+
+.tweetArea {
+  margin: 20px;
+  background-color: yellow;
+}
+
+.timeLine {
+  background-color: green;
+  min-height: 400px;
+  border: solid 2px;
+}
+
+.tweet {
+  border: solid 2px #000;
+  padding: 10px;
+  background-color: limegreen;
+}
+
+.charCount {
+  background: skyblue;
+  text-align: center;
+}
